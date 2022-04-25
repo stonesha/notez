@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Container>
         <button 
           onClick={() => signInWithGoogle()}
-          className="bg-slate-200 hover:bg-slate-300 font-bold py-2 px-4 rounded flex flex-row"
+          className="bg-slate-200 hover:bg-slate-300 font-bold py-2 px-4 rounded flex flex-row mx-auto"
         >
           Sign in with Google &nbsp; <GoogleLogo/>
         </button>

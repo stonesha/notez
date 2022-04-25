@@ -18,7 +18,7 @@ const Container: React.FC<Props> = (props: Props) => {
       </Head>
 
       <main>
-        <h1 className="text-center">Notes for <strong>{displayName}</strong></h1>
+        {displayName && <h1 className="text-center">Notes for <strong>{displayName}</strong></h1>}
         <br/>
         {props.children}
       </main>
