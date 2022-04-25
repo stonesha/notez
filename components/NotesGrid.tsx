@@ -1,8 +1,8 @@
 import { db } from '@/lib/firebase'
 import useStore from '@/lib/store'
-import { collection } from 'firebase/firestore';
+import { collection } from 'firebase/firestore'
 import { useCollection } from 'react-firebase-hooks/firestore'
-import NotesCard from '@/components/NotesCard';
+import NotesCard from '@/components/NotesCard'
 
 const NotesGrid: React.FunctionComponent = () => {
 

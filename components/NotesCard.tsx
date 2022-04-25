@@ -1,6 +1,6 @@
-import { db } from "@/lib/firebase";
-import useStore from "@/lib/store";
-import { collection, deleteDoc, doc } from "firebase/firestore";
+import { db } from "@/lib/firebase"
+import useStore from "@/lib/store"
+import { collection, deleteDoc, doc } from "firebase/firestore"
 
 interface NotesCardProps {
   id: string;
