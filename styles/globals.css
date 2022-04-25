@@ -5,7 +5,3 @@
 main {
   @apply justify-center mt-12 mx-20
 }
-
-.action-icon {
-  @apply bg-transparent font-semibold hover:text-white py-2 px-4 border hover:border-transparent rounded
-}
